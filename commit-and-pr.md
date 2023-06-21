@@ -36,5 +36,7 @@ Some examples would be:
 - define configurable rules in yml
 - don't allow PR with empty description
 - don't alloe PR with not proper title
+  ![alt text](failing-check.png "Title")
+  ![alt text](failing-detail.png "Title")
 
-https://github.com/kpatel143/github-actions/pull/3/checks?check_run_id=14451465903
+Uberbot already contains mergeable config: https://github.tools.sap/dsx/uberbot/blob/85ee6ecd42359bb6c67e0bdf28efc74547ce461b/.github/mergeable.yml
