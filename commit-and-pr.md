@@ -23,5 +23,16 @@ Some examples would be:
 
 ![alt text](commitlint.png "Title")
 
-- tooling (helper): [Commitizen](https://commitizen.github.io/cz-cli/)
+- tooling (helper): [Commitizen](https://commitizen.github.io/cz-cli/) for CLI and VScode
   ![Alt text](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)
+
+- also with [JIRA support](https://www.npmjs.com/package/@digitalroute/cz-conventional-changelog-for-jira?activeTab=readme)
+  ![alt text](jira-commit.png "Title")
+
+# Pull Requests guidelines - Implementation
+
+### [mergeable](https://mergeable.readthedocs.io/en/latest/index.html)
+
+- define configurable rules in yml
+- don't allow PR with empty description
+- don't alloe PR with not proper title
