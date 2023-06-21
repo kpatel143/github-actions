@@ -24,9 +24,11 @@ Some examples would be:
 ![alt text](commitlint.png "Title")
 
 - tooling (helper): [Commitizen](https://commitizen.github.io/cz-cli/) for CLI and VScode
+
   ![Alt text](https://github.com/commitizen/cz-cli/raw/master/meta/screenshots/add-commit.png)
 
 - also with [JIRA support](https://www.npmjs.com/package/@digitalroute/cz-conventional-changelog-for-jira?activeTab=readme)
+
   ![alt text](jira-commit.png "Title")
 
 # Pull Requests guidelines - Implementation
@@ -36,3 +38,7 @@ Some examples would be:
 - define configurable rules in yml
 - don't allow PR with empty description
 - don't alloe PR with not proper title
+  ![alt text](failing-check.png "Title")
+  ![alt text](failing-detail.png "Title")
+
+Uberbot already contains mergeable config: https://github.tools.sap/dsx/uberbot/blob/85ee6ecd42359bb6c67e0bdf28efc74547ce461b/.github/mergeable.yml
