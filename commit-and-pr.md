@@ -39,7 +39,7 @@ Some examples would be:
 
 - define configurable rules in yml
 - don't allow PR with empty description
-- don't alloe PR with not proper title
+- don't allow PR with not proper title
   ![alt text](failing-check.png "Title")
   ![alt text](failing-detail.png "Title")
 
