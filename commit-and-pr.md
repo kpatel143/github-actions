@@ -31,6 +31,8 @@ Some examples would be:
 
   ![alt text](jira-commit.png "Title")
 
+  `type(scope): JIRA-1234 commit subject`
+
 # Pull Requests guidelines - Implementation
 
 ### [mergeable](https://mergeable.readthedocs.io/en/latest/index.html)
