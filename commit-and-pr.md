@@ -53,7 +53,9 @@ Rules:
 
 
 # Contribution guidelines
-Requirment levels are reffering to: https://datatracker.ietf.org/doc/html/rfc2119
+- single source of truth.
+- for on-boarding and follow practice
+Requirment levels are referring to: https://datatracker.ietf.org/doc/html/rfc2119
 
 ## Commits
 - [MUST] use [Conventional commit](#cs) for message of commits. (can be enforced with [commitlint](https://github.com/conventional-changelog/commitlint))
