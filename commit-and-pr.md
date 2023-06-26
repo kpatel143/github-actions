@@ -50,3 +50,31 @@ Uberbot already contains mergeable config: https://github.tools.sap/dsx/uberbot/
 Rules: 
 - description should not be empty
 - title should follows [Conventional commit](#cs)
+
+
+# Contribution guidelines
+- single source of truth.
+- for on-boarding and follow practice
+Requirment levels are referring to: https://datatracker.ietf.org/doc/html/rfc2119
+
+## Commits
+- [MUST] use [Conventional commit](#cs) for message of commits. (can be enforced with [commitlint](https://github.com/conventional-changelog/commitlint))
+- [MUST] contains a meaningful message
+- [MUST] do small and frequent commits
+  -  Advantages:
+    -  easy to review PR with lot of changes.
+    -  easy to rollback specific changes, while working on big refacoring/feature
+## Pull Requests
+- [MUST] small and frequent Pull Requests.
+  - When you did some refactoring along with your feature, you are encouraged to open a separate pull request solely for this refactoring.
+  - Advantages
+    - it prevent loosing your work, in-case of hardware failure.
+    - peers can get changes sonner and can work in parallel.
+    - less conflict for peers.
+- [MUST] follow [Conventional commit](#cs) in Pull Requests title
+- [MUST] add description to Pull Requests to educate reviewer
+## Reviewer assignment
+  - [MUST] use `.CODEOWNERS` for knwon approval process. (ex. translation)
+  - [SHOULD] use peers of same epic in PR reviews to make them aware about code-changes
+  - [MAY] use whole scrum team as reviewer for specific change that everyone must know
+  - [MUST] in-case of multiple reviewer, comment specific reviewer, who reponsible to do review.
