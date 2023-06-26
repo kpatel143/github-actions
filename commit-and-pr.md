@@ -43,9 +43,10 @@ Some examples would be:
   ![alt text](failing-check.png "Title")
   ![alt text](failing-detail.png "Title")
 
+### Working example: https://github.com/kpatel143/github-actions/pull/10
 Uberbot already contains mergeable config: https://github.tools.sap/dsx/uberbot/blob/85ee6ecd42359bb6c67e0bdf28efc74547ce461b/.github/mergeable.yml
-Working example: https://github.com/kpatel143/github-actions/pull/10
+
 
 Rules: 
 - description should not be empty
-- title should follows (#cs)
+- title should follows [Conventional commit](#cs)
