@@ -1,0 +1,22 @@
+- PR description empty, comment
+```
+version: 2
+mergeable:
+  - when: pull_request.*
+    validate:
+      - do: description
+        no_empty:
+          enabled: true
+          message: Description matter and should not be empty. Provide detail with
+            **what** was changed, **why** it was changed, and **how** it was
+            changed.
+    fail:
+      - do: comment
+        payload:
+          body: >
+            The following problems were found with this issue:
+              - Description matter and should not be empty
+
+
+
+```
