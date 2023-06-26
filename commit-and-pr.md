@@ -1,4 +1,4 @@
-# Conventional commit
+# [Conventional commit](#cs)
 
 It is specification that provides set of rules for creating explicit commit history. It makes easier for developers to contribute, by allowing them to explore a more structured commit history. Also it allow some automation like
 automatic CHANGELOGs generation or automatic version bumps.
@@ -33,7 +33,7 @@ Some examples would be:
 
   `type(scope): JIRA-1234 commit subject`
 
-# Pull Requests guidelines - Implementation
+# Pull Requests guidelines - Enforce!
 
 ### [mergeable](https://mergeable.readthedocs.io/en/latest/index.html)
 
@@ -44,3 +44,8 @@ Some examples would be:
   ![alt text](failing-detail.png "Title")
 
 Uberbot already contains mergeable config: https://github.tools.sap/dsx/uberbot/blob/85ee6ecd42359bb6c67e0bdf28efc74547ce461b/.github/mergeable.yml
+Working example: https://github.com/kpatel143/github-actions/pull/10
+
+Rules: 
+- description should not be empty
+- title should follows (#cs)
