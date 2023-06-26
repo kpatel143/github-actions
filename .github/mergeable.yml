@@ -5,7 +5,6 @@ mergeable:
       - do: title
         # Enforce semantic release convention.
         must_include:
-          enabled: true
           regex: ^(feat|docs|chore|fix|refactor|test|style|perf)(\(\w+\))?:.+$
           message: Semantic release conventions must be followed.
       - do: description
