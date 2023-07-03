@@ -74,7 +74,7 @@ Requirment levels are referring to: https://datatracker.ietf.org/doc/html/rfc211
 - [MUST] follow [Conventional commit](#cs) in Pull Requests title
 - [MUST] add description to Pull Requests to educate reviewer
 ## Reviewer assignment
-  - [MUST] use `.CODEOWNERS` for knwon approval process. (ex. translation)
+  - [MUST-NOT] use `.CODEOWNERS` for knwon approval process. (ex. translation)
   - [SHOULD] use peers of same epic in PR reviews to make them aware about code-changes
   - [MAY] use whole scrum team as reviewer for specific change that everyone must know
   - [MUST] in-case of multiple reviewer, comment specific reviewer, who reponsible to do review.
